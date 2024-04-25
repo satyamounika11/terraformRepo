@@ -1,5 +1,6 @@
-db_username             = "satya"
+db_username             = "admin"
 db_name                 = "mouni_db"
+db_password             = "Shiva@1192"
 cluster_name            = "sandbox"
 aws_ecs_task_definition = "wordpress"
 
