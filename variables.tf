@@ -100,8 +100,8 @@ variable "service_desired_count" {
 #  description = "ARN for secrets"
 #}
 
- variable "alb_tls_cert_arn"{
-    type        = string
-    description = "Certificate ARN value"
+variable "alb_tls_cert_arn" {
+  type        = string
+  description = "Certificate ARN value"
 
- }
+}

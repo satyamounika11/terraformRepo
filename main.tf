@@ -1,8 +1,8 @@
 resource "aws_db_instance" "wordpress_rds" {
-  allocated_storage    = 10
-  engine               = "mysql"
-  engine_version       = "5.7"
-  instance_class       = "db.t3.micro"
+  allocated_storage = 10
+  engine            = "mysql"
+  engine_version    = "5.7"
+  instance_class    = "db.t3.micro"
   #name                 = var.db_name
   username             = var.db_username
   password             = var.db_password
