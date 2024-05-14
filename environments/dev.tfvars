@@ -4,6 +4,7 @@ db_password             = "Shiva@1192"
 cluster_name            = "sandbox"
 aws_ecs_task_definition = "wordpress"
 
+ecr_name    = "my-flask-app-repo"
 name        = "wordpress"
 environment = "dev"
 
